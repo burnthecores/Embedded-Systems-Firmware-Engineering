@@ -1,0 +1,27 @@
+What is Firmware and Systems engineering?
+
+Embedded software is broadly classifies into two branches
+1. Firmware  2. Systems Software
+
+The System Software is much broader subject which also includes Firmware, therefore it is convenient to start with Firmware development and then progress towards System Software.
+
+As we know CPU is deeply embedded in Electronics that do the Sensing and Actuation for a particular Environment and Task.
+The Software that goes into the CPU is called the Firmware. The Firmware(majorly in C/C++) is essentially a State-Machine controller.
+
+Now if we search about firmware in the Internet, or just check how the LAPTOP boots?
+There would be a notion of BOOT ROM, Bootloaders, then there would be Resident WIFI Firmware, Bluetooth Firmware etc.
+
+Anytime the CPU is programmed directly and the Software doesn't change as often, we can reasonably call it Firmware. We say it reasonably because iPhone will in have iOS 
+updates regularly which is a System Software update.
+
+Where all you can find the Firmware?
+Vacuum cleaner, Microwave, TV, AUDIO sub system etc.
+
+System Software?
+when we talk about system Software, typically which can run Higher level OS. Think of iPhone & iPad both have iOS, the iOS is also controlling the Electronics apart from the ways in which we can install the applications, do a phone call, browse the internet etc.
+
+Kernel like Unix or Linux, The kernel is interacting with user level stuff and it is also controls the Display, Audio etc. This piece of software is called the System Software.
+Things like Thread Management, Hardware Management, encryption Management etc are part of system software.
+
+
+
